@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="Red Warhol" src="resources/images/Red%20Warhol.jpg" alt="logo" height=75>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="Background.html">Background</a></li>
+                <li><a href="Works.html">Artwork</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <h1>Contact Me!</h1>
+        <form action="contactsubmit.html">
+            <div>
+                <label for="firstname">First Name </label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="lastname">Last Name </label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="email">E-mail </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label>How'd you find us?</label>
+                <select name="find-us" id="find-us" multiple>
+                    <option value="friend-family">Friends or Family</option>
+                    <option value="ad">Advertisment</option>
+                    <option value="third-party">Third Party Site</option>
+                    <option value="art">Art Related Inquiry</option>
+                    <option value="search">Search</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+
+              <div>
+                <label for="devices">What platforms do you use?</label>
+                <div class="checkboxes">
+                    <p><input type="checkbox" name="devices" value="Phone">Phone</p>
+                    <p><input type="checkbox" name="devices" value="Computer">Computer</p>
+                    <p><input type="checkbox" name="devices" value="Other Web Based Device">Other Web Based Device</p>
+
+                </div>
+            </div>
+            <div>
+                <label>What other artists would you want more info on?</label>
+                <input type="checkbox" name="artists" value="Lichtenstein">Roy Lichtenstein
+                <input type="checkbox" name="artists" value="Haring">Keith Haring
+                <input type="checkbox" name="artists" value="Hockney">David Hockney
+                <input type="checkbox" name="artists" value="Hamilton">Richard Hamilton
+            </div>
+            <div class="radio-buttons">
+                <label>Would you like to join our newsletter to recieve news based on our site and cool offers to other fun art excusions?</label>
+                <input type="radio" name="newsletter" value="Yes" checked>Yes please!
+                <input type="radio" name="newsletter" value="No">No thank you.
+            </div>
+            <div>
+                <label for="comments">Anything you want to share?</label>
+                <textarea name="comments" id="comments" rows="3" cols="50"></textarea>
+            </div>
+
+
+
+            <br>
+
+
+            <div>
+                <label></label>
+                <input type="submit" value="Submit">
+            </div>
+
+
+        </form>
+    </main>
+    <hr>
+    <footer>
+        Website by: <strong>Nick Capostagno</strong> <a href="mailto:ncapost5@mail.naz.edu">Email me with Questions!</a>
+    </footer>
+    <hr>
+</body>
+
+
+</html>

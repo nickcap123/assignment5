@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/WhiteHair.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9DEEE;
+
+}
+
+.main-text {
+    padding: 3em;
+    display: flex;
+    flex-direction: co lumn;
+    flex: 5;
+}
+
+/*
+.andy-quote {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+*/
+
+
+p {
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-family: monospace;
+    color: #E9DEEE;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: monospace;
+    color: #E9DEEE;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #EF423E;
+    border: 3px solid #E9DEEE;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    font-size: 70px
+}
+
+#content {
+    color: #EF423E;
+
+
+}
+
+
+footer {
+    font-family: monospace;
+    color: #E9DEEE
+}
+
+a {
+    font-family: monospace;
+    color: #E9DEEE
+}
+
+ul {
+    font-family: sans-serif;
+    color: #EF423E
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #7488A0;
+    flex-direction: row;
+}
+
+header nav {
+    flex: 1
+}
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form div,
+        {
+        flex-direction: column;
+    }
+}
+
+form {
+/*    display: flex;*/
+    margin-bottom: 1em;
+    width: 80%;
+/*    flex-direction: column;*/
+/*    flex-basis: 50%;*/
+/*    text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: monospace;
+/*    align-items: center;*/
+
+
+}
+
+.checkboxes {
+    display: flex;
+/*    flex-direction: column;*/
+    
+}
+
+.checkboxes input {
+    flex: 1;
+    
+}
+
+form div {
+    display: flex;
+    flex: 1;
+    
+}
+
+div .checkboxes {
+    flex-direction: column;
+}
+
+.checkboxes p {
+    
+    font-family: monospace;
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em 1em;
+    border-radius: 10px;
+}
+
+form select {
+    text-align: center;
+}
+
+form input[type=submit] {
+    color: #EF423E;
+    font-family: monospace;
+}
+
+.radio-buttons {
+    margin-right: 7px;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.space {
+    justify-content: space-around;
+}
+
+.banana {
+    height: 50vh;
+    margin-left: auto;
+        margin-right:auto;
+}
